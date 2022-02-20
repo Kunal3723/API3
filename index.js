@@ -13,7 +13,7 @@ app.use(cors());
 
 app.use('/videos', videoRoutes);
 app.get('/', function (req, res) {
-    res.send("Hello to Memories API");
+    res.send("Welcome to REST API");
 });
 
 const PORT = process.env.PORT || 5000;
